@@ -95,6 +95,6 @@ app.get('/process', async (req, res) => {
 });
 
 // Start server
-app.listen(port, () => {
-  console.log(`🚀 Server is running at http://localhost:${port}`);
+app.listen('web2stockticker-68e8a55b56b2.herokuapp.com', () => {
+  console.log(`Server is running at http://localhost:${port}`);
 });
