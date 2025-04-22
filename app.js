@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // MongoDB connection URI
 const uri = 'mongodb+srv://rmalloy22:jomama1256@cluster0.jqtai6u.mongodb.net/stock?retryWrites=true&w=majority';
